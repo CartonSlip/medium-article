@@ -1,0 +1,89 @@
+body {
+  color: #0e383c;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.banner {
+  background-image: url(https://miro.medium.com/v2/resize:fit:4112/format:webp/1*4NOuRJAXpull9polV9vcyg.png);
+  background-size: cover;
+  background-color: rgba(245, 245, 220, 0.76);
+  color: #0e383c;
+  padding: 120px 0;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+  border: solid;
+  border-color: #0e383c;
+  border-radius: 10px;
+  box-shadow: 6px 6px 25px rgba(29, 96, 130, 0.3);
+  text-align: justify;
+  padding: 20px;
+}
+
+.container.titre {
+  width: 700px;
+  margin: 50px auto;
+  border: solid;
+  border-color: #0e383c;
+  border-radius: 10px;
+  box-shadow: 6px 6px 25px rgba(29, 96, 130, 0.3);
+  text-align: justify;
+  padding: 20px;
+  backdrop-filter: blur(7px);
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 566) {
+  .container {
+    width: 300px;
+  }
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #145056;;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+a:hover {
+  color: #68b9aa;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1c727a;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #145056;
+}
